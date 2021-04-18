@@ -7,10 +7,10 @@ public class JDialog_Deposit extends javax.swing.JDialog
 {
     
 
-    private BankFrm parentframe;
+    private Bank parentframe;
     private String accnr;
     
-	public JDialog_Deposit(BankFrm parent, String aaccnr)
+	public JDialog_Deposit(Bank parent, String aaccnr)
 	{	super(parent);
 		//this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		

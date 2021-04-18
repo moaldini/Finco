@@ -12,10 +12,10 @@ import cCard.Model.CCDB;
 public class JDialog_Withdraw extends javax.swing.JDialog
 {
    
-    private CardFrm parentframe;
+    private Card parentframe;
     private String name;
     private Main main = new Main();
-	public JDialog_Withdraw(CardFrm parent, String aname)
+	public JDialog_Withdraw(Card parent, String aname)
 	{
 		super(parent);
 		parentframe=parent;

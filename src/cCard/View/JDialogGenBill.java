@@ -11,9 +11,9 @@ import cCard.Model.CCDB;
 public class JDialogGenBill extends javax.swing.JDialog
 {
     String billstring;
-    private CardFrm parentframe;
+    private Card parentframe;
     private Main main = new Main();
-	public JDialogGenBill(CardFrm parent)
+	public JDialogGenBill(Card parent)
 	{
 		super(parent);
 			this.parentframe=parent;

@@ -14,9 +14,9 @@ import bank.model.Savings;
 
 public class JDialog_AddCompAcc extends javax.swing.JDialog
 {
-    private BankFrm parentframe;
+    private Bank parentframe;
     private Main main = new Main();
-	public JDialog_AddCompAcc(BankFrm parent)
+	public JDialog_AddCompAcc(Bank parent)
 	{
 		super(parent);
 		parentframe=parent;

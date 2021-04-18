@@ -12,9 +12,9 @@ import bank.model.Savings;
 
 public class JDialog_AddPAcc extends javax.swing.JDialog
 {
-    private BankFrm parentframe;
+    private Bank parentframe;
     private Main main = new Main();
-	public JDialog_AddPAcc(BankFrm parent)
+	public JDialog_AddPAcc(Bank parent)
 	{
 		super(parent);
 		parentframe=parent;

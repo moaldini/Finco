@@ -11,10 +11,10 @@ public class JDialog_Deposit extends javax.swing.JDialog
 {
     
 
-    private CardFrm parentframe;
+    private Card parentframe;
     private String name;
     private Main main = new Main();
-	public JDialog_Deposit(CardFrm parent, String aname)
+	public JDialog_Deposit(Card parent, String aname)
 	{
 		super(parent);
 		parentframe=parent;

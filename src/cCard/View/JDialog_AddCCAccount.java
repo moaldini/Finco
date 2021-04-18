@@ -21,9 +21,9 @@ import cCard.Model.Silver;
 
 public class JDialog_AddCCAccount extends javax.swing.JDialog
 {
-    private CardFrm parentframe;
+    private Card parentframe;
     private Main main = new Main();
-	public JDialog_AddCCAccount(CardFrm parent)
+	public JDialog_AddCCAccount(Card parent)
 	{
 		super(parent);
 		parentframe=parent;

@@ -1,6 +1,6 @@
 package cCard.Model;
 
-import cCard.View.CCard;
+
 
 public class GenerateMonthlyBillsCommand implements CCardCommands {
 	private CreditCardAccount cc;
